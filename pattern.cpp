@@ -37,15 +37,19 @@ int main()
 
         for (int col = 1; col <= cols; col++)
         {
-            if (row == 1 || row == rows  || col == 1 || col == cols )
+            if (row == 1 || row == rows  || col == 1 )
             {
                 cout << "* ";
             }
-            else
+            else if (col == cols)
             {
-                cout << " ";  
-                //  #somehow not working (col==cols part)
+                cout << " *";
             }
+                else
+                {
+                    cout << " ";
+                   
+                }
         }
         cout << endl;
     }
