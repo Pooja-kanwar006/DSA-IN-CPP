@@ -1,5 +1,2 @@
-# myFirstRepository
-this is my first repository
-<br>
-this remote area
-author :pooja kanwar
+# dsa files in c++
+in this repo dsa problem's solutions are given
